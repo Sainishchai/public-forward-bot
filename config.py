@@ -9,7 +9,7 @@ class Config:
     DATABASE_URI = os.environ.get("DATABASE_URI", "mongodb+srv://forward:forward@cluster1.pgynkyr.mongodb.net/?retryWrites=true&w=majority")  
     DATABASE_NAME = os.environ.get("DATABASE_NAME", "Cluste1")
     COLLECTION_NAME = os.environ.get('COLLECTION_NAME', 'forward_files')
-    SESSION = os.environ.get("SESSION", "")   
+    SESSION = os.environ.get("SESSION", "BQGxRSAACtT62Vgw4WrpSTTksGRAeN5SNJz6k8gtsti5lgMfACzQ84_2jRozB95aBKyAoTOMgfCUuQCKSz-frS4AJB24M1ADfPUGpimbY7fcNzweu8kE4lTGIegVq5i-meTAPO02x7eeCEH0fOlX3VYH8yjv0OXc6i1UzCiLzGqnajTdpamMTiOt4Goel84FYrArsE1J0rbE7FXMVhJLLS0jM_mLKHCfxPPqJ8nUeuDYLTc_A9YKS6lLDHiMRHW9mh3m2DlN_0TwtqoYogZ0wynqimdt90pmBxgXDIvl8fU8YzZrplTEL59v_od7N1-Sz2yxK1kQqxERfRA9gtAwegweXlOwrgAAAABF5vF9AA")   
     TO_CHANNEL = int(os.environ.get("TO_CHANNEL", "-1001795790118"))
     BOT_USERNAME= os.environ.get("BOT_USERNAME", "Forwardit_nodejs_27_bot")
 
